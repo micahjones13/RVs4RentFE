@@ -1,0 +1,11 @@
+.HomeBannerWrapper {
+  background-image: url("../assets/bannerimg.jpg");
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position-y: center;
+  .BannerTitle {
+    color: white;
+  }
+}

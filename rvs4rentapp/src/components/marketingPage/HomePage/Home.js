@@ -1,10 +1,10 @@
 import React from "react";
-import { render } from "react-dom";
+import HomeBanner from "./HomeBanner.js";
 
 const Home = (props) => {
   return (
-    <div>
-      <h3>Home Page</h3>
+    <div className="HomeWrapper">
+      <HomeBanner />
     </div>
   );
 };
