@@ -1,0 +1,16 @@
+.HomeBannerWrapper {
+  background-image: url("../assets/bannerimg.jpg");
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position-y: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .BannerTitle {
+    color: white;
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,42 @@
+.HomeContentWrapper {
+  background: #222;
+  height: 100vh;
+  padding: 10px;
+
+  .HomeContent {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+    color: white;
+    padding: 5%;
+  }
+  p {
+    color: white;
+    font-size: 2rem;
+    width: 49%;
+    padding: 1%;
+    a {
+      color: black;
+      padding: 2%;
+      width: 30%;
+      margin-top: 5%;
+      margin-right: 2%;
+      background: white;
+      text-decoration: none;
+      border: 10px black;
+      font-size: 1.4rem;
+      cursor: pointer;
+
+      &:hover {
+        background: gray;
+      }
+    }
+  }
+  img {
+    width: 49%;
+  }
+}
