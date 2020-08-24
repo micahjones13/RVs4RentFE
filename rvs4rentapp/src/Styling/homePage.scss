@@ -5,7 +5,12 @@
   overflow: hidden;
   background-size: cover;
   background-position-y: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
   .BannerTitle {
     color: white;
+    font-size: 3rem;
   }
 }
