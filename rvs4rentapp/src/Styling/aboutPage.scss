@@ -1,0 +1,27 @@
+.AboutPageWrapper {
+  background: rgb(85, 84, 84);
+  //   height: 100vh;
+  h1 {
+    font-size: 4rem;
+    padding: 5%;
+  }
+  hr {
+    // width: 85%; if this gets centered, then 85% would look nice
+    color: black;
+    background-color: black;
+    border: medium none;
+    height: 2px;
+  }
+  .AboutContent {
+    display: flex;
+    .AboutDiv {
+      width: 49%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+}
